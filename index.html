@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMBA PLANETARY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="images/logo.png" alt="OMBA Planetary logo">
+    <h4>OMBA planetary</h4>
+  </div>
+  <hr>
+  <div class="header">
+    <h1>
+      Explore Our solar System THrough Data
+    </h1>
+    <p>
+      Understand the planets not just by name, but by measurable facts, from size and mass to gravity and dnsity, this page braeks down the solar system in a clear, dat driven way.
+    </p>
+    <a href="">Explore the data</a> 
+    <a href="">Contact us</a>
+  </div>
+  <hr>
+  <div class="main">
+    <h3>
+      How planetary Data Helps Us Understand Space
+    </h3>
+    <p>
+      planetary science goes beyond images. Compaering mass, diameter, gravity, and density, we gain insight into how planets form, behave, and interract within the solar system.
+    </p>
+    <video width="640" controls autoplay muted loop>
+      <source src="videos/visual.mp4" type="video/mp4">
+    </video>
+  <hr>
+  
+  <h3>
+    visualizing the Differences Between Planets
+  </h3>
+  <p>
+    Each planets in our solar system has unique physical characteristics. Visual comparisons help highlight how vastly different terrestrial planets are from gas giants and ice giants.
+  </p>
+  <img src="images/planet.png" alt="Planets Comparison" width="640">
+  </div>
+  <hr>
+  <div class="table">
+    <h2>Planetary Facts at a Glance</h2>
+    <p>
+      Below is a comparative table of major planets in our solar system. The data highlights key physical properties used by astronomers and researchers worldwide.
+    </p>
+    <h2>
+      Data about the planets of our solar system(Planetary facts taken from 
+      Nasa)
+    </h2>
+    <table>
+      <tr>
+        <th colspan="2"></th>
+        <th>Name</th>
+        <th>Mass (10 24kg)</th>
+        <th>Diameter (km)</th>
+        <th>Density (kg/m3)</th>
+        <th>Gravity (m/s²)</th>
+      </tr>
+
+      <!-- Terrestial Planets -->
+      <tr>
+        <td colspan="2" rowspan="4">Terrestrial Planets</td>
+        <td>Mercury</td>
+        <td>0.330</td>
+        <td>4,879</td>
+        <td>5,427</td>
+        <td>3.7</td>
+      </tr>
+
+      <tr>
+        <td>Venus</td>
+        <td>4.87</td>
+        <td>12,104</td>
+        <td>5243</td>
+        <td>8.9</td>
+      </tr>
+
+      <tr>
+        <td>Earth</td>
+        <td>5.97</td>
+        <td>12,742</td>
+        <td>5514</td>
+        <td>9.8</td>
+      </tr>
+
+      <tr>
+        <td>Mars</td>
+        <td>0.642</td>
+        <td>6,779</td>
+        <td>3933</td>
+        <td>3.7</td>
+      </tr>
+
+      <!-- Jovian Planets -->
+       <tr>
+        <td rowspan="4" colspan="1"><strong>Jovian Planets</strong></td>
+        <td rowspan="2"><strong>Gas Giants</strong></td>
+        <td>Jupiter</td>
+        <td>1,898</td>
+        <td>139,820</td>
+        <td>1,326</td>
+        <td>24.8</td>
+       </tr>
+
+       <tr>
+        <td>Saturn</td>
+        <td>568</td>
+        <td>116,460</td>
+        <td>687</td>
+        <td>10.4</td>
+       </tr>
+
+       <tr>
+        <td rowspan="2"><strong>Ice Giants</strong></td>
+        <td>Uranus</td>
+        <td>86.8</td>
+        <td>50,724</td>
+        <td>1271</td>
+        <td>8.7</td>
+       </tr>
+
+       <tr>
+        <td>Neptune</td>
+        <td>102</td>
+        <td>49,244</td>
+        <td>1638</td>
+        <td>11.0</td>
+       </tr>
+
+       <!-- Dwarf Planets -->
+        <tr>
+          <td colspan="2"><strong>Dwarf Planets</strong></td>
+          <td>Pluto</td>
+          <td>0.0146</td>
+          <td>2,377</td>
+          <td>2095</td>
+          <td>0.7</td>
+        </tr>
+    </table>
+  </div>
+  <hr>
+  <div>
+      <h3>
+        Have Questions About Planetary Science
+      </h3>
+      <p>
+        interested in learning more about space, astronomy, or how planetary data is collected and analyzed? Reach out and we'll get back to you.
+      </p>
+        <form action="#" method="post">
+
+          <!-- Full Name -->
+          <label for="fullname">Full Name*</label><br>
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Full name"
+            required
+          >
+          <br><br>
+  
+          <!-- Email -->
+          <label for="email">Email*</label><br>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@example.com"
+            required
+          >
+          <br><br>
+  
+          <!-- City -->
+          <label for="city">City*</label><br>
+          <select id="city" name="city" required>
+            <option value="">Choose city</option>
+            <option>Lagos</option>
+            <option>Abuja</option>
+            <option>Port Harcourt</option>
+            <option>Kano</option>
+          </select>
+          <br><br>
+  
+          <!-- Phone -->
+          <label for="phone">Phone Number*</label><br>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Please enter a valid phone number."
+            required
+          >
+          <br><br>
+  
+          <!-- Message -->
+          <label for="message">Message*</label><br>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            maxlength="500"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+          <p>500 characters</p>
+          <hr>
+         <!-- Contact Method -->
+          <p><strong>How should we contact you?</strong></p>
+  
+          <input type="radio" id="phoneContact" name="contact" value="Phone">
+          <label for="phoneContact">Phone</label>
+  
+          <input type="radio" id="emailContact" name="contact" value="Email">
+          <label for="emailContact">Email</label>
+  
+          <input type="radio" id="bothContact" name="contact" value="Both">
+          <label for="bothContact">Both</label>
+  
+          <br><br>
+  
+          <!-- How did you hear -->
+          <p><strong>How did you hear about us?</strong></p>
+  
+          <input type="checkbox" id="friend" name="source" value="Friend">
+          <label for="friend">Friend</label>
+  
+          <input type="checkbox" id="academy" name="source" value="Academy">
+          <label for="academy">JS Academy</label>
+  
+          <input type="checkbox" id="others" name="source" value="Others">
+          <label for="others">Others</label>
+  
+          <br><br>
+  
+          <button type="submit">Submit</button>
+      </form>
+    </section>
+    
+    <hr>
+    <footer>
+    
+        <h3>About</h3>
+    
+        <ul>
+            <li><a href="#">Planetary Facts</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">World Records</a></li>
+            <li><a href="#">Guides</a></li>
+        </ul>
+    
+        <p>&copy; 2026 Your Name &nbsp;&nbsp; Design by OMBA &nbsp;&nbsp; All rights reserved</p>
+    
+        <a href="#">Privacy & Policy</a> |
+        <a href="#">Terms & Conditions</a>
+    </footer>
+  </div>
+</body>
+</html>
